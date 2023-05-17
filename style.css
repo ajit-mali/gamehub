@@ -29,6 +29,7 @@ body {
 
 #logo h2:nth-child(1){
     color: white;
+    font-size: 9vw;
 }
 
 #logo h2:nth-child(2) {
@@ -42,7 +43,7 @@ body {
     height: 5%;
     background-color: white;
     position: absolute;
-    bottom: 22%;
+    bottom: 20%;
     left: calc(50% + 2px);
     transform: translateX(-50%);
 }
@@ -73,6 +74,8 @@ span {
     width: 100%;
     padding: 20px;
     border-bottom: 5px solid skyblue;
+    box-shadow: inset 0px 0px 5px skyblue
+                0px 0px 5px skyblue;
 }
 
 span:last-child {
