@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(23, 124, 207);
+}
+
+#backVdo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    z-index: -1;
+    filter: blur(0px);
+    transition: all 1s ease-in-out;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(77, 77, 77, 0.171);
+  transition: backdrop-filter 1s ease-in-out;
+}
+
+.team {
+  font-size: 10rem;
+  color: rgba(245, 172, 36, 0.897);
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+.team span:nth-child(2):after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 47%;
+  left: 4%;
+  width: 85%;
+  height: 10%;
+  background-color: #ffffff;
+}
+
+.team span {
+  width: 250px;
+  border: 1px solid black;
+  transition: all .25s ease-in-out;
+  position: relative;
+}
+
+.team span:hover > h1 {
+  display: none;
+}
+
+.team span:hover > p {
+
+  display: block;
+}
+
+.team span:nth-child(2):hover::after {
+  display: none;
+}
+
+.team p {
+  font-size: 2rem;
+  display: none;
+}
+
+header {
+  animation: name 1s ease-in-out 1000 1 forwards;
+  top: -200px;
+}
+
+@keyframes name {
+  0% {
+    transform: translateY(0px);
+  }
+  
+  100% {
+    transform: translateY(200px);
+  }
+}
+@media (max-width:1400px) {
+  #backVdo {
+    width: auto;
+    height: 100vh;
+  }
+}
+@media (max-width:900px) {
+  #backVdo {
+    width: 1000px;
+    height: auto;
+  }
+}
+@media (max-width:500px) {
+  #backVdo {
+    width: 700px;
+    height: auto;
+  }
+}
+

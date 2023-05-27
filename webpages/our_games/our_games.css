@@ -1,0 +1,15 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*************/
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgb(0,0,0);
+    background: linear-gradient(156deg, rgba(0,0,0,1) 0%, rgba(47,47,52,1) 65%, rgba(96,96,96,1) 100%);
+}

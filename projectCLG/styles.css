@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Grenze+Gotisch:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    
+}
+
+section {
+    height: 105vh;
+    width: 100%;
+}
+.homepage {
+    background-image: url(bg.png);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: 1520px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.about-theme {
+    background-color: rgb(255, 255, 255);
+}
+
+.about-us {
+    background-color: green;
+}
