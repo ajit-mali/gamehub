@@ -21,7 +21,11 @@ body{
 
 
 #pieces {
+<<<<<<< HEAD
     width: 1040px;
+=======
+    width: 1050px;
+>>>>>>> 77d1917 (added jigsaw edited about-us and our_games)
     height: 160px;
     border: 2px solid purple;
 
@@ -35,5 +39,8 @@ body{
     height: 79px;
     border:0.5px solid lightblue;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 77d1917 (added jigsaw edited about-us and our_games)

@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*RESET*/
+=======
+>>>>>>> 77d1917 (added jigsaw edited about-us and our_games)
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 }
 /*************/
 
@@ -30,3 +34,145 @@ body {
     background: linear-gradient(156deg, rgba(0,0,0,1) 0%, rgba(47,47,52,1) 65%, rgba(96,96,96,1) 100%);
 >>>>>>> 2b9c910 (major update 2705230919)
 }
+=======
+    transition: all .25s ease-in-out;
+    cursor: default;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(0, 71, 0);
+}
+
+.backCover {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    backdrop-filter: blur(110px);
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.backVdo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+/* -------------------------- */
+.container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.wrapper {
+    scroll-snap-align: start;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.wrapper .gamePlay {
+    position: absolute;
+    box-shadow: 10px 5px 20px rgb(24, 24, 24);
+    height: 300px;
+    top: 40%;
+    left: 58%;
+    z-index: 2;
+}
+
+.wrapper img{
+    position: absolute;
+    box-shadow: 10px 5px 15px rgb(54, 54, 54);
+    left: 50%;
+    z-index: 5;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+}
+
+.wrapper .snakeWallpaper {
+    height: 400px;
+    top: 10%;
+}
+.wrapper .tic_tac_toe_wallpaper {
+    width: 250px;
+    top: 25%;
+}
+.wrapper .sudokuWallpaper {
+    width: 300px;
+    top: 20%;
+}
+.wrapper .picrossWallpaper {
+    width: 300px;
+    top: 25%;
+}
+
+.wrapper .content {
+    position: absolute;
+    top: 15%;
+    left: 50px;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.wrapper h2 {
+    padding: 30px 50px;
+    font-size: 3rem;
+    width: 20ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+.wrapper h2:hover {
+    color: orangered;
+    transform: translate(25px, -9px);
+    scale: 1.2;
+}
+.wrapper p {
+    width: 55ch;
+    padding-left: 50px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    transition: all .15s;
+}
+
+.wrapper button {
+    margin: 0 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 5px solid rgb(53, 186, 238);
+    background-color: transparent;
+    color: rgb(48, 196, 255);
+    letter-spacing: 4px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.wrapper button:hover {
+    background-color: white;
+    color: rgb(255, 145, 0);
+    border-color: rgb(255, 145, 0);
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+>>>>>>> 77d1917 (added jigsaw edited about-us and our_games)
