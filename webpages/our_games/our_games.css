@@ -1,9 +1,13 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all .25s ease-in-out;
     cursor: default;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -99,15 +103,16 @@ body {
 
 .wrapper h2 {
     padding: 30px 50px;
-    font-size: 3rem;
+    font-size: 36px;
     width: 20ch;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
     color: orange;
 }
 
 .wrapper h2:hover {
     color: orangered;
-    transform: translate(25px, -9px);
+    transform: translate(35px, -9px);
     scale: 1.2;
 }
 .wrapper p {
@@ -115,7 +120,7 @@ body {
     padding-left: 50px;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
     transition: all .15s;
 }
