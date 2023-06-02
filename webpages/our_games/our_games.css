@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*RESET*/
-=======
->>>>>>> 77d1917 (added jigsaw edited about-us and our_games)
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
 }
-/*************/
+
 
 body {
     width: 100vw;
@@ -17,14 +12,13 @@ body {
     overflow-x: hidden;
     background: rgb(0,0,0);
     background: linear-gradient(156deg, rgba(0,0,0,1) 0%, rgba(47,47,52,1) 65%, rgba(96,96,96,1) 100%);
-=======
-/*RESET*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/*************/
+
 
 body {
     width: 100vw;
@@ -32,9 +26,8 @@ body {
     overflow-x: hidden;
     background: rgb(0,0,0);
     background: linear-gradient(156deg, rgba(0,0,0,1) 0%, rgba(47,47,52,1) 65%, rgba(96,96,96,1) 100%);
->>>>>>> 2b9c910 (major update 2705230919)
 }
-=======
+
     transition: all .25s ease-in-out;
     cursor: default;
 }
@@ -175,4 +168,3 @@ body {
 .container::-webkit-scrollbar {
     display: none;
 }
->>>>>>> 77d1917 (added jigsaw edited about-us and our_games)
